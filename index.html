@@ -10,20 +10,29 @@
 <body>
   <header>
     <span class="helper"></span><img src='img/logo.png' alt='Jessies Pizza'>
-    <div id='account_container'>
-      <span id='login'>LOG IN</span>
-      <span id='create_acc'>CREATE ACCOUNT</span>
-    </div>
-    <div id='location'>
-      <!-- select html here -->
-    </div>
-    <div id='order'>
-      <img src='img/cart.svg'>
-      <div id='order_details'>
-        <span id='order_head'>ORDER DETAILS</span>
-        <span id='order_amount'>$25.99</span>
+    <div class='header_container'>
+      <div id='account_container'>
+        <div id='account_btns'>
+          <span id='login'>LOG IN</span>
+          <span id='create_acc'>CREATE ACCOUNT</span>
+        </div>
       </div>
-      <span id='view_order_btn'>VIEW ORDER <!-- ADD ARROW ICON HERE --> </span>
+      <div id='location'>
+        <!-- select html here -->
+        <select>
+          <option SELECTED=''>Store 1</option>
+          <option>Store 2</option>
+          <option>Store 3</option>
+        </select>
+      </div>
+      <!-- <div id='order'>
+        <img src='img/cart.svg'>
+        <div id='order_details'>
+          <span id='order_head'>ORDER DETAILS</span>
+          <span id='order_amount'>$25.99</span>
+        </div>
+        <span id='view_order_btn'>VIEW ORDER  ADD ARROW ICON HERE  </span>
+      </div> -->
     </div>
   </header>
 </body>

@@ -15,27 +15,50 @@ header {
   background-color: #0000CC;
 }
 
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
+/* helps align images in center */
 
 header > img {
   line-height: 100px;
   margin-left: 25px;
-  vertical-align: middle;
 
+}
+
+.header_container {
+  float: right;
+  margin-top: -4px;
 }
 
 #account_container {
-  float: right;
+  display: inline-block;
+  margin-right: 150px;
+  height: 100px;
 }
 
+#account_container > #account_btns {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  line-height: 100px;
+}
+
+#account_btns > #login, #account_btns > #create_acc {
+  margin: 0 20px;
+  padding: 8px 12px;
+}
+
+#create_acc {
+  background-color: #CB3D48;
+  border-radius: 25px;
+}
+
+
 #location {
-  float: right;
+  display: inline-block;
+  margin-right: 150px;
 }
 
 #order {
-  float: right;
+  display: inline-block;
+  margin-right: 35px;
 }
