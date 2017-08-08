@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-874.000000, -37.000000)" fill="#FFFFFF">
+            <g id="shopping-cart" transform="translate(874.000000, 28.000000)">
+                <path d="M5.7,24.2 C4.655,24.2 3.8,25.055 3.8,26.1 C3.8,27.145 4.655,28 5.7,28 C6.745,28 7.6,27.145 7.6,26.1 C7.6,25.055 6.745,24.2 5.7,24.2 L5.7,24.2 Z M0,9 L0,10.9 L1.9,10.9 L5.32,18.12 L3.99,20.4 C3.895,20.685 3.8,21.065 3.8,21.35 C3.8,22.395 4.655,23.25 5.7,23.25 L17.1,23.25 L17.1,21.35 L6.08,21.35 C5.985,21.35 5.89,21.255 5.89,21.16 L5.89,21.065 L6.745,19.45 L13.775,19.45 C14.535,19.45 15.105,19.07 15.39,18.5 L18.81,12.325 C19,12.135 19,12.04 19,11.85 C19,11.28 18.62,10.9 18.05,10.9 L3.99,10.9 L3.135,9 L0,9 L0,9 Z M15.2,24.2 C14.155,24.2 13.3,25.055 13.3,26.1 C13.3,27.145 14.155,28 15.2,28 C16.245,28 17.1,27.145 17.1,26.1 C17.1,25.055 16.245,24.2 15.2,24.2 L15.2,24.2 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

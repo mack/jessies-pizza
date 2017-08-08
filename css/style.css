@@ -1,0 +1,41 @@
+/* MARK: - HEADER & BODY CSS */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  /*background-color: #000;*/
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #0000CC;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+header > img {
+  line-height: 100px;
+  margin-left: 25px;
+  vertical-align: middle;
+
+}
+
+#account_container {
+  float: right;
+}
+
+#location {
+  float: right;
+}
+
+#order {
+  float: right;
+}
