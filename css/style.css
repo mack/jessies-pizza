@@ -40,6 +40,18 @@ header > img {
   height: 100px;
 }
 
+#login-box {
+  position: absolute;
+  top: 65px;
+  margin-left: -60px;
+  z-index: 10;
+  height: 250px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
 #account_container > #account_btns {
   cursor: pointer;
   font-size: 13px;
@@ -57,7 +69,6 @@ header > img {
   background-color: #CB3D48;
   border-radius: 25px;
 }
-
 
 #location {
   float: left;
@@ -83,9 +94,28 @@ header > img {
   width: 200px;
   outline: none;
   -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
   -webkit-border-radius: 0px;
   border: 0px;
   padding-left: 10px;
+  color: white;
+  font-weight: 600;
+  /*Arrow*/
+  background-image:
+    linear-gradient(45deg, transparent 50%, #7289C7 50%),
+    linear-gradient(135deg, #7289C7 50%, transparent 50%),
+    linear-gradient(to right, #445FA8, #445FA8);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 3.2em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  background-color: #2236C5;
 }
 
 #order {
@@ -138,6 +168,7 @@ header > img {
 }
 
 #view_order_btn {
+  z-index: 9;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   position: absolute;
@@ -166,12 +197,9 @@ nav {
   width: 100%;
   background-color: red;
   display: table;
+  position: relative;
   color: rgba(0,0,0,0.8);
   font-weight: 600;
-}
-
-nav .nav-item.selected {
-  color: #D2535D;
 }
 
 nav .nav-item {
@@ -180,5 +208,50 @@ nav .nav-item {
   vertical-align: middle;
   height: 50px;
   background-color: white;
+}
+nav .nav-item > a {
   cursor: pointer;
+  text-decoration: none;
+}
+
+nav .nav-item.selected > a {
+  color: #D2535D;
+}
+
+
+/* MARK: DEALS */
+
+.deals_container {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 65px;
+  background-color: #000;
+}
+
+.deals_container .deals_order_btn {
+  position: absolute;
+  right: 100px;
+  bottom: 75px;
+}
+
+/* MARK: MENU */
+#menu_container {
+  background-color: white;
+}
+
+#menu {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#menu #menu_nav {
+  display: table;
+  width: 100%;
+}
+
+#menu #menu_nav .menu-item {
+  display: table-cell;
+  text-align: center;
 }
