@@ -59,13 +59,71 @@ header > img {
 #login-box {
   position: absolute;
   top: 65px;
-  margin-left: -60px;
+  margin-left: -64px;
   z-index: 10;
   height: 250px;
   width: 300px;
   background-color: white;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
+}
+
+#login-box::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.login-box-container {
+  position: relative;
+  height: 100%;
+}
+
+#login-box .login_head {
+  display: block;
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #8b8b8b;
+  left: 15px;
+}
+
+#login-box .login_btn {
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 8px;
+  width: 250px;
+}
+
+#login-box .forgot_pwd {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  bottom: 7px;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  color: #a1a1a1;
+}
+
+#login-box .forgot_pwd:hover {
+    color: #323232;
 }
 
 #account_container > #account_btns {
@@ -239,6 +297,7 @@ nav .nav-item {
   background-color: white;
 }
 nav .nav-item > a {
+  color: #303030;
   cursor: pointer;
   text-decoration: none;
 }
@@ -293,7 +352,7 @@ nav .nav-item.selected > a {
 }
 .deal_sub_n2 {
   display: inline-block;
-  background-color: blue;
+  background-color: white;
   width: 49.5%;
   height: 230px;
 }
@@ -303,7 +362,7 @@ nav .nav-item.selected > a {
   margin-left: 1%;
   width: 49.5%;
   height: 230px;
-  background-color: green;
+  background-color: #fff;
 
 }
 
@@ -325,6 +384,7 @@ nav .nav-item.selected > a {
 }
 
 #menu #menu_nav .menu-category {
+  padding: 0 8px;
   cursor: pointer;
   display: table-cell;
   text-align: center;
@@ -335,6 +395,7 @@ nav .nav-item.selected > a {
 
 #menu #menu_nav .menu-category.selected {
   background-color: #df3030;
+  font-weight: 600;
   border-radius: 100px;
   color: white;
 }
