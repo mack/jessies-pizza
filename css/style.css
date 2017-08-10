@@ -259,17 +259,52 @@ nav .nav-item.selected > a {
 }
 
 .deals_container {
+  color: white;
   position: relative;
   width: 95%;
   margin: 0 auto;
   margin-top: 65px;
-  background-color: #000;
 }
 
 .deals_container .deals_order_btn {
   position: absolute;
-  right: 100px;
-  bottom: 75px;
+  cursor: pointer;
+  background-color: #36c65a;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 6px;
+  right: 50px;
+  bottom: 35px;
+}
+
+.deal_main_n1 {
+  background-color: #000;
+  position: relative;
+  height: 270px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.deal_main_n1 #left_pizza {
+  position: absolute;
+  height: 101% !important;
+  z-index:1;
+}
+.deal_sub_n2 {
+  display: inline-block;
+  background-color: blue;
+  width: 49.5%;
+  height: 230px;
+}
+
+.deal_sub_n3 {
+  float: right;
+  margin-left: 1%;
+  width: 49.5%;
+  height: 230px;
+  background-color: green;
+
 }
 
 /* MARK: MENU */
