@@ -434,17 +434,37 @@ nav .nav-item.selected > a {
   margin-right: 130px;
 }
 
-#menu #menu-table .menu-item .menu-item-add-btn {
-  background-color: #3f71bd;
+#menu #menu-table .menu-item .menu-btn-container {
   color: white;
-  padding: 6px 10px;
+  text-align: center;
   font-size: 13px;
-  border-radius: 5px;
   position: absolute;
   right: 20px;
-  top: 34px;
+  top: 10px;
+  height: 80px;
+  display: table;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+#menu #menu-table .menu-item .menu-btn-container .menu-btns {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#menu #menu-table .menu-item .menu-btn-container .menu-item-add-btn {
+  display: block;
+  background-color: #3f71bd;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+#menu #menu-table .menu-item .menu-btn-container .menu-item-remove-btn {
+  margin-top: 5px;
+  display: block;
+  background-color: #bd3f3f;
+  padding: 6px 10px;
+  border-radius: 5px;
 }
 
 #menu #menu-table .menu-item .menu-item-img {
