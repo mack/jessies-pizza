@@ -379,7 +379,7 @@ nav .nav-item.selected > a {
 
 #menu #menu_nav {
   display: table;
-  padding: 5px 0;
+  padding: 8px 0;
   min-height: 40px;
 }
 
@@ -407,7 +407,84 @@ nav .nav-item.selected > a {
 
 #menu #menu-table .menu-item {
   padding: 10px;
+  height: 80px;
+  position: relative;
 }
 #menu #menu-table .menu-item:nth-child(odd) {
   background-color: #ededed;
+}
+
+#menu #menu-table .menu-item .menu-item-number {
+  float: left;
+  font-weight: 800;
+  line-height: 80px;
+  margin-left: 10px;
+}
+
+#menu #menu-table .menu-item .menu-item-desc {
+  line-height: 80px;
+  margin-left: 10px;
+}
+
+#menu #menu-table .menu-item .menu-item-price {
+  float: right;
+  font-weight: 600;
+  line-height: 80px;
+  font-size: 19px;
+  margin-right: 130px;
+}
+
+#menu #menu-table .menu-item .menu-item-add-btn {
+  background-color: #3f71bd;
+  color: white;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 34px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#menu #menu-table .menu-item .menu-item-img {
+  float: left;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.menu_pages_container {
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+.menu_pages_container .menu_pages {
+    float: right;
+    border: 1px solid #e3e3e3;
+
+}
+
+.menu_pages_container .menu_pages span {
+  cursor: pointer;
+  float: left;
+  padding: 8px 10px;
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.menu_pages_container .menu_pages span:hover {
+    color: #7a7a7a;
+}
+
+.menu_pages_container .menu_pages span {
+    border-left: 1px solid #e3e3e3;
+}
+
+.menu_pages_container .menu_pages span.selected {
+    color: #397ed0;
+}
+
+.menu_pages_container .menu_pages span:first-child {
+  border: none;
 }
