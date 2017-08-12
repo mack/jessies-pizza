@@ -19,7 +19,7 @@ header {
                                 supported by Chrome and Opera */
   width: 100%;
   height: 100px;
-  background-color: #273ee0; /*0000CC;*/
+  background-color: #3248df; /*0000CC;*/
 }
 
 header img {
@@ -488,9 +488,12 @@ nav .nav-item.selected > a {
 }
 
 .menu_pages_container .menu_pages {
-    float: right;
-    border: 1px solid #e3e3e3;
-
+  float: right;
+  border: 1px solid #e3e3e3;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .menu_pages_container .menu_pages span {
@@ -501,8 +504,15 @@ nav .nav-item.selected > a {
   color: #b3b3b3;
 }
 
-.menu_pages_container .menu_pages span:hover {
-    color: #7a7a7a;
+.menu_pages_container .menu_pages span img {
+  opacity: 0.3;
+  height: 10px;
+  width: 10px;
+}
+
+.menu_pages_container .menu_pages span:hover, .menu_pages_container .menu_pages span:hover img {
+    color: #2a2a2a;
+    opacity: 1;
 }
 
 .menu_pages_container .menu_pages span {
