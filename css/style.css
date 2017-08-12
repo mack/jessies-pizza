@@ -400,6 +400,13 @@ nav .nav-item.selected > a {
   color: white;
 }
 
+#menu #menu_nav .menu-category:not(.selected) {
+  border-left: 1px solid #e6e6e6;
+}
+#menu #menu_nav .menu-category:first-child {
+  border-left: none;
+}
+
 #menu #menu-table {
   padding: 10px;
   border: 1px solid #f1eded;
