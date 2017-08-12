@@ -431,7 +431,7 @@ nav .nav-item.selected > a {
   font-weight: 600;
   line-height: 80px;
   font-size: 19px;
-  margin-right: 130px;
+  margin-right: 160px;
 }
 
 #menu #menu-table .menu-item .menu-btn-container {
@@ -456,14 +456,22 @@ nav .nav-item.selected > a {
   display: block;
   background-color: #3f71bd;
   padding: 6px 10px;
+  width: 110px;
   border-radius: 5px;
 }
 
+#menu #menu-table .menu-item .menu-btn-container .menu-item-amount {
+  color: #474747;
+  display: block;
+  margin-top: 1px;
+}
+
 #menu #menu-table .menu-item .menu-btn-container .menu-item-remove-btn {
-  margin-top: 5px;
+  margin-top: 3px;
   display: block;
   background-color: #bd3f3f;
   padding: 6px 10px;
+  width: 110px;
   border-radius: 5px;
 }
 
