@@ -1,0 +1,19 @@
+#googleMap {
+  height: 300px;
+  width: 100%;
+}
+
+.map_container {
+  background-color: red;
+  position: absolute;
+  top: 60px;
+
+  width: 100%;
+
+}
+
+.map {
+  position: relative;
+  width: 98%;
+  margin: 0 auto;
+}
