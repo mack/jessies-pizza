@@ -394,7 +394,7 @@ nav .nav-item.selected > a {
 }
 
 #menu #menu_nav .menu-category.selected {
-  background-color: #df3030;
+  background-color: #de3131;
   font-weight: 600;
   border-radius: 100px;
   color: white;
@@ -459,6 +459,10 @@ nav .nav-item.selected > a {
   vertical-align: middle;
 }
 
+#menu #menu-table .menu-item .menu-btn-container .menu-item-add-btn:hover {
+  background-color: #4d81d0;
+}
+
 #menu #menu-table .menu-item .menu-btn-container .menu-item-add-btn {
   display: block;
   background-color: #3f71bd;
@@ -472,7 +476,9 @@ nav .nav-item.selected > a {
   display: block;
   margin-top: 1px;
 }
-
+#menu #menu-table .menu-item .menu-btn-container .menu-item-remove-btn:hover {
+  background-color: #d04949;
+}
 #menu #menu-table .menu-item .menu-btn-container .menu-item-remove-btn {
   margin-top: 3px;
   display: block;
