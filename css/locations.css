@@ -4,16 +4,21 @@
 }
 
 .map_container {
-  background-color: red;
+  background-color: rgb(212, 212, 212);
   position: absolute;
   top: 60px;
-
   width: 100%;
-
 }
 
 .map {
   position: relative;
   width: 98%;
   margin: 0 auto;
+}
+
+.location-table {
+  background-color: white;
+  display: block;
+  margin-top: 380px;
+  height: 450px;
 }
