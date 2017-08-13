@@ -5,19 +5,25 @@
 }
 
 /* ORDER */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 .order-bg {
- position: fixed;
- height: 100%;
- width: 100%;
- background-color: rgba(0,0,0,0.6);
- z-index: 11;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 11;
 }
 
 .order-form {
   background-color: white;
-  width: 400px;
-  height: 900px;
-  margin: 0 auto;
+  width: 450px;
+  height: 500px;
+  margin: auto;
   display: block;
   opacity: 1;
 }
