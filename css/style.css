@@ -1,9 +1,28 @@
-/* MARK: - HEADER & BODY CSS */
 * {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* ORDER */
+.order-bg {
+ position: fixed;
+ height: 100%;
+ width: 100%;
+ background-color: rgba(0,0,0,0.6);
+ z-index: 11;
+}
+
+.order-form {
+  background-color: white;
+  width: 400px;
+  height: 900px;
+  margin: 0 auto;
+  display: block;
+  opacity: 1;
+}
+
+/* MARK: - HEADER & BODY CSS */
 
 body {
   background-color: #e6e7ec;
@@ -305,7 +324,6 @@ nav .nav-item > a {
 nav .nav-item.selected > a {
   color: #D2535D;
 }
-
 
 /* MARK: DEALS */
 .deals_container img {
