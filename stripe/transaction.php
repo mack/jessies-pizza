@@ -1,6 +1,15 @@
 <?php
-$configs = include('config.php');
-//$token = $_POST['stripeToken'];
+require_once('vendor/autoload.php');
 
-echo $configs['stripeKey'];
+$configs = include('config.php');
+
+\Stripe\Stripe::setApiKey($configs['secretKey']);
+$token = $_POST['stripeToken'];
+
+$charge = \Stripe\Charge::create(array(
+  "amount" => 10000,
+  "currency" => "cad",
+  "description" => "Example charge",
+  "source" => $token,
+));
 ?>

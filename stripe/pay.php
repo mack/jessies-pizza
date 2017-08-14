@@ -4,8 +4,8 @@
   test
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="<?php $configs = include('config.php'); echo $configs['stripeKey']?>"
-    data-amount="999"
+    data-key="<?php $configs = include('config.php'); echo $configs['publicKey']?>"
+    data-amount="4242"
     data-name="Mackenzie Boudreau"
     data-description="Widget"
     data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
