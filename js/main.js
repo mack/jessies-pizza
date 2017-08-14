@@ -4,15 +4,17 @@
 
   function setup() {
     $('#view_order_btn, #cart, .item_notif').click(function() {
-      $('.order-bg').toggle();
-      toggleScroll();
+      $('.order-bg').fadeIn(200, function() {
+        toggleScroll();
+      });
     });
-    $('.order-bg').on('click', function(e) {
+    $('.order-bg, #close-order-from-btn').on('click', function(e) {
       if (e.target !== this)
         return;
 
-      toggleScroll();
-      $('.order-bg').toggle();
+      $('.order-bg').fadeOut(100, function() {
+        toggleScroll();
+      });
     });
   }
 

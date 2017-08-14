@@ -19,13 +19,29 @@
   z-index: 11;
 }
 
+.order-form-container {
+  height: 100%;
+  margin: auto;
+  width: 450px;
+}
+
+
 .order-form {
   background-color: white;
-  width: 450px;
-  height: 500px;
-  margin: auto;
-  display: block;
   opacity: 1;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 88vh;
+  max-height: 600px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#close-order-from-btn {
+  cursor: pointer;
+  position: absolute;
+  right: -25px;
 }
 
 /* MARK: - HEADER & BODY CSS */
@@ -386,10 +402,10 @@ nav .nav-item.selected > a {
 .slider-controls span {
   margin-left: 1px;
   background-color: white;
-  width: 12px;
+  width: 11px;
+  height: 11px;
   display: inline-block;
   cursor: pointer;
-  height: 12px;
   border-radius: 15px;
   opacity: 0.3;
 }
