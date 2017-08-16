@@ -17,12 +17,15 @@
       });
     });
     $('.slider-controls > span').click(function() {
+      $('.slider-controls span').removeClass("selected")
+      $(this).addClass('selected')
       var width = $('.deal_main_n1 ul li').width()
-
-      $('.deal_main_n1 ul').animate({
-        scrollLeft: width
-      }, 900)
-
+      getSelectedAdIndex(function(el){
+        var xPos = el * width
+        $('.deal_main_n1 ul').animate({
+          scrollLeft: xPos
+        }, 900)
+      })
     })
   }
 
@@ -34,6 +37,14 @@
       lockedScroll = false;
       $('body').removeClass('stop-scrolling')
     }
+  }
+
+  function getSelectedAdIndex(callback) {
+    $('.slider-controls span').each(function(idx, el){
+      if ($(el).hasClass("selected")) {
+        callback(idx)
+      }
+    });
   }
 
   window.onload = setup;
