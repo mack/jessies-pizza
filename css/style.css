@@ -365,7 +365,19 @@ nav .nav-item.selected > a {
   margin-top: 65px;
 }
 
-.deals_container .deals_order_btn {
+.deal_main_n1 {
+  background-color: #000;
+  position: relative;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.deal_main_n1 ul li > img { /* The image on the far left of the ad */
+  height: 101% !important;
+  z-index:1;
+}
+
+.deal_main_n1 ul li .deals_order_btn { /* The image on the far left of the ad */
   cursor: pointer;
   background-color: #36c65a;
   font-size: 15px;
@@ -377,31 +389,15 @@ nav .nav-item.selected > a {
   margin-top: 210px;
 }
 
-.deal_main_n1 {
-  background-color: #000;
-  position: relative;
-  height: 270px;
-  margin-bottom: 10px;
-}
-
-.deal_main_n1 ul li > img {
-
-  height: 101% !important;
-  z-index:1;
-}
-
 .deal_main_n1 ul {
   width: auto;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 270px;
-  background-color: blue;
   white-space: nowrap;
 }
 .deal_main_n1 ul li {
   height: 100%;
   display: inline-block;
-  background-color: red;
   width: 100%;
 }
 
@@ -433,6 +429,13 @@ nav .nav-item.selected > a {
   background-color: white;
   width: 49.5%;
   height: 230px;
+  overflow: hidden;
+}
+
+.deal_sub_n2 img {
+  margin-top: -50px;
+  width: 100%;
+  height: auto;
 }
 
 .deal_sub_n3 {
@@ -441,7 +444,13 @@ nav .nav-item.selected > a {
   width: 49.5%;
   height: 230px;
   background-color: #fff;
+  overflow: hidden;
+}
 
+.deal_sub_n3 img {
+  margin-top: -140px;
+  width: 100%;
+  height: auto;
 }
 
 /* MARK: MENU */

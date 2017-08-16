@@ -16,6 +16,14 @@
         toggleScroll();
       });
     });
+    $('.slider-controls > span').click(function() {
+      var width = $('.deal_main_n1 ul li').width()
+
+      $('.deal_main_n1 ul').animate({
+        scrollLeft: width
+      }, 900)
+
+    })
   }
 
   function toggleScroll() {
