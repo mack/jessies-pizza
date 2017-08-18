@@ -27,6 +27,14 @@
         }, 900)
       })
     })
+    $(window).resize(function(){
+      getSelectedAdIndex(function(el){
+        var width = $('.deal_main_n1 ul li').width()
+        var xPos = el * width
+        $('.deal_main_n1 ul').scrollLeft(xPos)
+
+      })
+    });
   }
 
   function toggleScroll() {

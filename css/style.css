@@ -453,6 +453,12 @@ nav .nav-item.selected > a {
   height: auto;
 }
 
+.deal_sub_n2 > span, .deal_sub_n3 > span {
+  position: absolute;
+  color: white;
+  display: block;
+}
+
 /* MARK: MENU */
 #menu_container {
   background-color: white;
